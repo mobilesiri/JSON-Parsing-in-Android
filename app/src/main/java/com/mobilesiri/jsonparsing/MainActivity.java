@@ -19,7 +19,7 @@ import java.util.HashMap;
 public class MainActivity extends ListActivity {
 
     // URL to get contacts JSON
-    private static String url = "";
+    private static String url = "https://raw.githubusercontent.com/mobilesiri/JSON-Parsing-in-Android/master/index.html";
 
     // JSON Node names
     private static final String TAG_STUDENTINFO = "studentsinfo";
