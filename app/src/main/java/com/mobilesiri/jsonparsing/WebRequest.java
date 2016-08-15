@@ -52,7 +52,6 @@ public class WebRequest {
             conn.setReadTimeout(15000);
             conn.setConnectTimeout(15000);
             conn.setDoInput(true);
-            conn.setDoOutput(true);
 
             if (requestmethod == POST) {
                 conn.setRequestMethod("POST");
